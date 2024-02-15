@@ -1,2 +1,6 @@
+import VDiv from "generics/vdivs.ato"
+
 module SimpleExample:
-    signal gnd
+    vdiv = new VDiv
+    vdiv.r_top.value = 10ohms +/- 10%
+    vdiv.r_bottom.value = 10ohms +/- 10%
